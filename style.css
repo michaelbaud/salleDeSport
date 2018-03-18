@@ -1,0 +1,119 @@
+/*-------------------------------
+GENERAL
+-------------------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.containerBox {
+  max-width: 1150px;
+  padding: 80px 20px 80px 20px;
+  margin: auto;
+}
+
+.title {
+  text-transform: uppercase;
+}
+
+.is-2 {
+  color: #fff;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+}
+
+p {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.button {
+  border-radius: 100px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.block:not(:last-child) {
+  margin-bottom: 0;
+}
+
+
+
+/*-------------------------------
+BANNER
+-------------------------------*/
+
+.banner {
+  background-image: url("images/main.jpg");
+  background-attachment:fixed;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.banner .headerNormal {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100vw;
+  height: 90px;
+  background-color: #fff;
+  opacity: 0.7;
+  position: fixed;
+}
+
+.banner .headerNormal .logo img {
+  float: left;
+  width: 80px;
+  margin-top: 10px;
+}
+
+.banner .mainTitleBox {
+  position: absolute;
+  top: 60%;
+}
+
+.banner .mainTitleBox h1 {
+  margin-bottom: 20px;
+}
+
+/* menu normal */
+
+.banner .headerNormal .nav {
+  float: right;
+  margin-top: 45px;
+  font-size: 1.1em;
+}
+
+.banner .headerNormal .nav a {
+  margin-left: 40px;
+  color: #000D10;
+  font-size: 1.2em;
+  font-weight: bold;
+  
+}
+
+.banner .headerNormal .nav a:hover {
+  border-bottom: 2px solid #BF55EC;
+}
+
+/*-------------------------------
+SECTION ABONNEMENT
+-------------------------------*/
+
+#abonnement {
+  background-color: #ECE9E8;
+}
+
+#abonnement .containerBox .column {
+  
+}
+
+/*-------------------------------
+SECTION LES SALLES
+-------------------------------*/
+
+#lesSalles .is-3 {
+  text-align: center;
+}
